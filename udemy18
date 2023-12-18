@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Ex3 {
+public static void main (String []args) {
+	Scanner s = new Scanner(System.in);
+	 System.out.print("Digite o número do funcionário");
+	 int Nfuncionario = s.nextInt();
+	 
+	 System.out.print("número por horas trabalhadas");
+	 double Horastrabalhadas = s.nextDouble();
+	 
+	 System.out.print("valor recebido por hora");
+	 double ValorHora = s.nextDouble();
+	 
+	 double salario = Horastrabalhadas * ValorHora;
+	 
+	 System.out.println("NUMBER ="+ Nfuncionario);
+	 System.out.printf("SALARY = U$ %.2f%n", salario);
+}
+}
